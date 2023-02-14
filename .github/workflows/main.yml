@@ -19,7 +19,7 @@ on:
           - att
           - verizon
           
-run-name: TestXYZ
+run-name: TestXYZ - ${{inputs.client}}
      
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
