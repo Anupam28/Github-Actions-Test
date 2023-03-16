@@ -1,0 +1,9 @@
+name: demo
+run-name: Working session GHA
+workflow_dispatch:
+Enter the name
+
+on:[push]
+
+job:
+echo "Files pushed"
