@@ -1,11 +1,11 @@
 name: demo
 run-name: Working session GHA
+on:
 workflow_dispatch:
 inputs:
  description:Enter the name:
 default: 
 
-on:[push]
 
 job:
 echo "Files pushed"
