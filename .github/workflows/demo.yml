@@ -7,5 +7,4 @@ inputs:
 default: 
 
 
-job:
-echo "Files pushed"
+
