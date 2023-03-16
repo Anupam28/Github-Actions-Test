@@ -1,7 +1,9 @@
 name: demo
 run-name: Working session GHA
 workflow_dispatch:
-Enter the name
+inputs:
+ description:Enter the name:
+default: 
 
 on:[push]
 
